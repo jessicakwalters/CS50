@@ -6,7 +6,7 @@
 int main(void)
 {
    string name = get_string();
-
+   
    if (name != NULL)
    {
         for (int i = 0, n = strlen(name); i < n; i++)
